@@ -1,6 +1,26 @@
-body {
-    background-color: black;
+/* Colores para utilizar */ 
+/* #B9FFF8 color1 */
+/* #6FEDD6 color2*/
+/* #FF9551 color3 */
+/* #FF4A4A color4 */ 
+:root {
+    --color1:#B9FFF8;
+    --color2:#6fEDD6;
+    --color3:#FF9551;
+    --color4:#FF4A4A; 
 }
-h1 {
-    background-color: blue;
+* {
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
+
+body {
+    background:var(--color1)
+}
+.header {
+    background-color: var(--color3);
+    height: 80px;
+    position: fixed;
+    width: 100%;
 }
