@@ -7,7 +7,7 @@ Metabank es una aplicación la cual permite la interacción entre diferentes ban
 
 - [trello](https://trello.com/b/DVxhdeOx/metabank)
 - [UML](https://lucid.app/lucidchart/dadb70fb-a5d8-4d17-8cfe-eab8a26bc029/edit?invitationId=inv_79f89a01-52fd-418b-bbea-6ee540eb5b8e&page=0_0#)
-
+- ![Maqueta uml](imagenes/uml_prototipo.jpg)
 ---
 ### Aplicaciones que usaremos
 
