@@ -8,18 +8,21 @@
 <title>METABANK APP</title>
 </head>
 <body>
-<header class="header">
-    <nav class="nav">
-        <a href="" class="logo">METABANK</a>
-        <ul class="nav__menu">
-            <li class="nav-menu-item"><a href="inicio" class="nav-menu-link"></a></li>
-            <li class="nav-menu-item"><a href="Login" class="nav-menu-link"></a></li>
-            <li class="nav-menu-item"><a href="Signup" class="nav-menu-link"></a></li>
-            <li class="nav-menu-item"><a href="Contactanos" class="nav-menu-link"></a></li>
-        </ul>
-    </nav>
-</header>
-<main>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Molestiae iure accusantium mollitia quae dolor, cupiditate id quo labore perspiciatis, optio quibusdam, quos fuga! Nisi, laboriosam blanditiis eaque possimus beatae error.</main>
+<div class="login-box">
+    <img src="/forntend/assets/user.png" class="avatar"  alt="Avatar Imagen">
+    <h1>Iniciar Sesión</h1>
+    <formLog>
+        <!-- El input del usuario-->
+        <label for="username">Username</label>
+        <input type="text" placeholder="Ingresar usuario">
+        <!--El input del password-->
+        <label for="password">Contraseña</label>
+        <input type="password" placeholder="Ingresa contraseña">
+        <input type="submit" value="Log In">
+        <a href="#">¿Se te olvidó la contraseña?</a>
+        <a href="#">¿No tiene usuario?</a>
+    </form>
+</div>
 <script src="../javascript/index.js"></script>
 </body>
 </html>
