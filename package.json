@@ -1,5 +1,23 @@
 {
   "dependencies": {
     "bootstrap": "^5.2.0"
-  }
+  },
+  "name": "metabank",
+  "description": "Metabank es una aplicación la cual permite la interacción entre diferentes bancos haciendo más accesible el manejo del dinero entre estas",
+  "version": "1.0.0",
+  "main": "index.js",
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Murphy328/MetaBank.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Murphy328/MetaBank/issues"
+  },
+  "homepage": "https://github.com/Murphy328/MetaBank#readme"
 }
