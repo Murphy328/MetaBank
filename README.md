@@ -18,3 +18,4 @@ Metabank es una aplicación la cual permite la interacción entre diferentes ban
 - JAVA
 - MARIADB
 - VSCODE
+- SASS
