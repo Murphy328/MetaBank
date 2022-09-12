@@ -1,6 +1,20 @@
 @use 'custom';
 
-.navbar {
-    color: white;
-    background-color: red;
+// Importar componentes
+
+@use 'components/animations';
+@use 'components/buttons';
+@use 'components/mixins';
+@use 'components/typography';
+
+//Importar secciones
+
+@use 'sections/navbar';
+@use 'sections/footer';
+@use 'sections/bancos';
+@use 'sections/into-section';
+
+.dropdown-item {
+    background-color:"#2e89e5";
+    color:#fff;
 }
