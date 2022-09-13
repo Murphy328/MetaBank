@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- <link rel="stylesheet" href="/frontend/login/css/style.css">  -->
+    <link rel="stylesheet" href="assets/css/style.css" />
+    <link rel="stylesheet" href="assets/css/fontawesome.css">   
+<title>METABANK APP</title>
+</head>
+<body>
+     <!--navbar-->
+  
+     <nav class="navbar navbar-expand-lg navbar-dark menu shadow fixed-top">
+        <div class="container"><a class="navbar-brand" href="#"><img src="/imagenes/log.ico/android-icon-48x48.png" alt="Metabank Logo"></a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+      
+        <div class="collapse navbar-collapse justify-content-end" id="navbarSupportedContent">
+          <ul class="navbar-nav mr-auto">
+            <li class="nav-item active">
+              <a class="nav-link" href="#">Inicio <span class="sr-only"></span></a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Registro</a>
+            </li>
+            <li class="nav-item"><a href="" class="nav-link">bancos</a></li>
+              <!--Estaría bueno un toggle por aquí pero me sale todo blanco-->
+  
+              <!-- <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                <a class="dropdown-item" href="#">Bancolombia</a>
+                <a class="dropdown-item" href="#">Davivienda</a>
+                <a href="" class="dropdown-item">Nequi</a>
+                <a href="" class="dropdown-item">Banco caja Social</a>
+                <div class="dropdown-divider"></div>
+                <a class="dropdown-item" href="#">¿No está tu banco?
+                  Agregalo aquí
+                </a>
+              </div> -->
+            </li>
+            <li class="nav-item">
+              <a class="nav-link disabled" href="#">ayuda</a>
+            </li>
+          </ul>
+          <button type="button" class="rounded-pill btn-rounded">+57 321 6060 741 <span><i class="fas fa-phone-alt"></i></span></button>
+         
+        </div>
+      </div>
+      </nav>
+      <!--Fin del  navbar: este mismo debería estar en todos los archivos del proyecto-->
+
+	<div class="container h-100">
+		<div class="d-flex justify-content-center h-100">
+			<div class="user_card">
+				<div class="d-flex justify-content-center">
+					<div class="brand_logo_container">
+						<img src="/img/user.png" class="brand_logo" alt="Logo">
+					</div>
+				</div>
+				<div class="d-flex justify-content-center form_container">
+					<form>
+						<div class="input-group mb-3">
+							<div class="input-group-append">
+								<span class="input-group-text"><i class="fas fa-user"></i></span>
+							</div>
+							<input type="text" name="" class="form-control input_user" value="" placeholder="username">
+						</div>          
+						<div class="input-group mb-2">
+							<div class="input-group-append">
+								<span class="input-group-text"><i class="fas fa-key"></i></span>
+							</div>
+							<input type="password" name="" class="form-control input_pass" value="" placeholder="password">
+						</div>
+						<div class="form-group">
+							<div class="custom-control custom-checkbox">
+								<input type="checkbox" class="custom-control-input" id="customControlInline">
+								<label class="custom-control-label" for="customControlInline">Remember me</label>
+							</div>
+						</div>
+							<div class="d-flex justify-content-center mt-3 login_container">
+				 	<button type="button" name="button" class="btn login_btn">Login</button>
+				   </div>
+					</form>
+				</div>
+		
+				<div class="mt-4">
+					<div class="d-flex justify-content-center links">
+						Don't have an account? <a href="#" class="ml-2">Sign Up</a>
+					</div>
+					<div class="d-flex justify-content-center links">
+						<a href="#">Forgot your password?</a>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+
+<footer>Metabank</footer>
+<script src="../javascript/index.js"></script> 
+</body>
+</html>
