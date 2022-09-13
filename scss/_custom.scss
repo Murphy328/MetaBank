@@ -1,0 +1,31 @@
+//customizando bootstrap
+$fondo:  #0E1331 ;
+$color_1:  #4A517D ;
+$color_2:#3A50C9;
+$color_3:#2C304A;               
+$color_4:#24327D;
+//Colores del tema
+
+// --color1:#0E1331;
+// --color2:#4A517D;
+// --color3:#3A50C9;
+// --color4:#2C304A;
+// --color5:#24327D; 
+// scss-docs-start gray-color-variables
+$white: #fff;
+$gray-100: #f8f9fa;
+$gray-200: #e9ecef;
+$gray-300: #dee2e6;
+$gray-400: #ced4da;
+$gray-500: #adb5bd;
+$gray-600: #6c757d;
+$gray-700: #495057;
+$gray-800: #343a40;
+$gray-900: #212529; 
+$black: #000;
+
+$primary:       $color_1;
+$secondary:     $color_2;
+
+//importando boostrap
+@import "../node_modules/bootstrap/scss/bootstrap.scss"

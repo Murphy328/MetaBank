@@ -1,0 +1,36 @@
+* {
+    margin:0;
+}
+:root {
+    --color1:#0E1331;
+    --color2:#4A517D;
+    --color3:#3A50C9;
+    --color4:#2C304A;
+    --color5:#24327D; 
+}
+.productos_ {
+    text-align: center;
+    margin:40px;
+}
+.container img{
+width: 50px;
+display: flex;
+margin:0px 0px 5px 0px;
+padding:10px;
+position: relative;
+right: 50px;
+top:45px;
+
+}
+.container_bancos_logo {
+    background-color: #0E1331;
+    display: flex;
+    justify-content: center ;
+    align-content: space-around;
+    gap: 30px;
+}
+@media (min-width:600px){
+*    {
+    width: 500px;
+}
+}

@@ -1,0 +1,25 @@
+{
+  "dependencies": {
+    "@fortawesome/fontawesome-free": "^6.2.0",
+    "autoprefixer": "^10.4.8",
+    "bootstrap": "^5.2.0",
+    "sass": "^1.54.9"
+  },
+  "name": "metabank",
+  "description": "Metabank es una aplicación la cual permite la interacción entre diferentes bancos haciendo más accesible el manejo del dinero entre estas",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "compile:sass": "sass --watch scss:assets/css"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Murphy328/MetaBank.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Murphy328/MetaBank/issues"
+  },
+  "homepage": "https://github.com/Murphy328/MetaBank#readme"
+}
