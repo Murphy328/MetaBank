@@ -6,6 +6,7 @@
 @use 'components/buttons';
 @use 'components/mixins';
 @use 'components/typography';
+@use 'components/barras';
 
 //Importar secciones
 
@@ -15,3 +16,4 @@
 @use 'sections/into-section';
 @use 'sections/registro';
 @use 'sections/login';
+
