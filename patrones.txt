@@ -18,3 +18,9 @@ colores
     --color3:#3A50C9;
     --color4:#2C304A;
     --color5:#24327D; 
+
+    #####
+    Enlaces
+    <link rel="stylesheet" href="assets/css/style.css" />
+    <link rel="stylesheet" href="assets/css/fontawesome.css">   
+    #########
