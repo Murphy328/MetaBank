@@ -24,3 +24,9 @@ colores
     <link rel="stylesheet" href="assets/css/style.css" />
     <link rel="stylesheet" href="assets/css/fontawesome.css">   
     #########
+
+##### 
+Compilar
+#######
+
+npm run compile:sass
