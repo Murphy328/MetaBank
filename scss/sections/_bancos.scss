@@ -1,0 +1,24 @@
+.bancos{
+    padding:  0 0 5rem 0;
+    background-color: red;
+
+
+    .banco__logo-box {
+        background-color: yellow;
+        box-shadow: 30px;
+        max-width: 100%;
+        height: 15rem;
+        margin-bottom: 2rem;
+        padding: 0.5rem;
+        text-align: center;
+        position: relative;
+
+        a {
+            height: 100%;
+
+            a:hover {
+                background-color: orange;
+}
+        }
+    }
+}

@@ -83,3 +83,20 @@
 .gradient  {
     background: linear-gradient(to right, rgba($primary, 0.95), rgba($secondary, 0.95));
 }
+.heading-line::before {
+    content: "";
+    width: 10rem;
+    height: 0.1rem;
+    display:block;
+    margin:0 auto;
+    background-color: $secondary;
+}
+.heading-line::after {
+    content: "";
+    width: 2rem;
+    padding-top:0.5rem;
+    height: 0.2rem;
+    display:block;
+    margin:0 auto;
+    background-color: $secondary;
+}
