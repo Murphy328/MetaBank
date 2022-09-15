@@ -10879,6 +10879,25 @@ textarea.form-control-lg {
   background: linear-gradient(to right, rgba(74, 81, 125, 0.95), rgba(58, 80, 201, 0.95));
 }
 
+.heading-line::before {
+  content: "";
+  width: 10rem;
+  height: 0.1rem;
+  display: block;
+  margin: 0 auto;
+  background-color: #3A50C9;
+}
+
+.heading-line::after {
+  content: "";
+  width: 2rem;
+  padding-top: 0.5rem;
+  height: 0.2rem;
+  display: block;
+  margin: 0 auto;
+  background-color: #3A50C9;
+}
+
 .menu {
   background: linear-gradient(to right, rgba(58, 80, 201, 0.95), rgba(74, 81, 125, 0.95));
 }
@@ -10889,6 +10908,30 @@ textarea.form-control-lg {
   color: #fff;
   text-transform: capitalize;
   font-weight: 600;
+}
+
+.bancos {
+  padding: 0 0 2rem 0;
+  background-color: #0E1331;
+  text-align: center;
+  color: white;
+}
+.bancos .banco__logo-box {
+  border-radius: 0.5rem;
+  box-shadow: 30px;
+  max-width: 100%;
+  height: 15rem;
+  margin-bottom: 2rem;
+  padding: 0.5rem;
+  text-align: center;
+  position: relative;
+}
+.bancos .banco__logo-box a {
+  height: 100%;
+}
+.bancos .banco__logo-box a a:hover {
+  filter: grayscale(120);
+  -webkit-filter: grayscale(120);
 }
 
 .intro-section {
