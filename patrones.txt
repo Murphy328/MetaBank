@@ -38,3 +38,51 @@ npm run compile:sass
 
 - Pruebas unitarias
 - conexión con el back
+
+####
+Borde de abajo
+##############
+ <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320"><path fill="#ffffff" fill-opacity="1" d="M0,160L48,176C96,192,192,224,288,208C384,192,480,128,576,133.3C672,139,768,213,864,202.7C960,192,1056,96,1152,74.7C1248,53,1344,107,1392,133.3L1440,160L1440,320L1392,320C1344,320,1248,320,1152,320C1056,320,960,320,864,320C768,320,672,320,576,320C480,320,384,320,288,320C192,320,96,320,48,320L0,320Z"></path></svg>
+
+
+
+ #########
+ El nav
+ ##########
+  <nav class="navbar navbar-expand-lg navbar-dark menu shadow fixed-top">
+        <div class="container"><a class="navbar-brand" href="#"><img src="/imagenes/log.ico/android-icon-48x48.png" alt="Metabank Logo"></a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+      
+        <div class="collapse navbar-collapse justify-content-end" id="navbarSupportedContent">
+          <ul class="navbar-nav mr-auto">
+            <li class="nav-item active">
+              <a class="nav-link" href="/index.html">Inicio <span class="sr-only"></span></a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="registro.html">Registro</a>
+            </li>
+            <li class="nav-item"><a href="bancos.html" class="nav-link">bancos</a></li>
+              <!--Estaría bueno un toggle por aquí pero me sale todo blanco-->
+  
+              <!-- <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                <a class="dropdown-item" href="#">Bancolombia</a>
+                <a class="dropdown-item" href="#">Davivienda</a>
+                <a href="" class="dropdown-item">Nequi</a>
+                <a href="" class="dropdown-item">Banco caja Social</a>
+                <div class="dropdown-divider"></div>
+                <a class="dropdown-item" href="#">¿No está tu banco?
+                  Agregalo aquí
+                </a>
+              </div> -->
+            </li>
+            <li class="nav-item">
+              <a class="nav-link disabled" href="#">ayuda</a>
+            </li>
+          </ul>
+          <button type="button" class="rounded-pill btn-rounded">+57 321 6060 741 <span><i class="fas fa-phone-alt"></i></span></button>
+         
+        </div>
+      </div>
+    </nav>
